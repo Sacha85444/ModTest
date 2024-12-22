@@ -1,0 +1,149 @@
+{
+  "mod_elements": [
+    {
+      "name": "PoolTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/pool_tile.json",
+          "src/main/java/net/mcreator/liminalspace/block/PoolTileBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "DamagedPoolTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damaged_pool_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/damaged_pool_tile.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/damaged_pool_tile.json",
+          "src/main/resources/assets/liminal_space/blockstates/damaged_pool_tile.json",
+          "src/main/resources/assets/liminal_space/models/block/damaged_pool_tile.json",
+          "src/main/java/net/mcreator/liminalspace/block/DamagedPoolTileBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LiminalSpace",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_space",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/liminalspace/world/dimension/LiminalSpaceDimension.java",
+          "src/main/resources/assets/liminal_space/blockstates/liminal_space_portal.json",
+          "src/main/resources/assets/liminal_space/models/block/liminal_space_portal_ns.json",
+          "src/main/java/net/mcreator/liminalspace/item/LiminalSpaceItem.java",
+          "src/main/resources/data/liminal_space/dimension_type/liminal_space.json",
+          "src/main/resources/data/liminal_space/dimension/liminal_space.json",
+          "src/main/resources/assets/liminal_space/models/block/liminal_space_portal_ew.json",
+          "src/main/resources/assets/liminal_space/models/item/liminal_space.json",
+          "src/main/java/net/mcreator/liminalspace/world/teleporter/LiminalSpaceTeleporter.java",
+          "src/main/java/net/mcreator/liminalspace/world/teleporter/LiminalSpacePortalShape.java",
+          "src/main/java/net/mcreator/liminalspace/block/LiminalSpacePortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LiminalPool",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_pool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/worldgen/biome/liminal_pool.json"
+        ]
+      }
+    },
+    {
+      "name": "Bathroomtiles",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bathroomtiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/bathroomtiles.json",
+          "src/main/java/net/mcreator/liminalspace/item/BathroomtilesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoolHeart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/pool_heart.json",
+          "src/main/java/net/mcreator/liminalspace/item/PoolHeartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoolDimebsionLighterCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_dimebsion_lighter_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/pool_dimebsion_lighter_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DamagedPoolTile"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:PoolTile"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.liminal_space.liminal_space": "Liminal Space Portal Igniter",
+      "item.liminal_space.bathroomtiles": "Pool Tile",
+      "item.liminal_space.pool_heart": "Pool Heart",
+      "block.liminal_space.pool_tile": "Pool Tile",
+      "biome.liminal_space.liminal_pool": "Liminal Pool",
+      "block.liminal_space.damaged_pool_tile": "Damaged Pool Tile"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "liminal_space",
+    "modName": "Liminal Space",
+    "version": "1.0.0",
+    "author": "Asus, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.liminalspace"
+  },
+  "mcreatorVersion": 202400342716
+}

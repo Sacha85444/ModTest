@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "liminal_space:block/liminal_space_portal_ew"
+    },
+    "axis=x": {
+      "model": "liminal_space:block/liminal_space_portal_ns"
+    }
+  }
+}
